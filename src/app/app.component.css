@@ -1,0 +1,30 @@
+.inline{
+  display: flex;
+  font-size: 1.1em;
+  padding:10px 0;
+  cursor:pointer;
+  border-top:1px solid #efefef;
+  color:#ccc;
+}
+
+.inline:hover{
+  background: #efefef;
+  color:#999;
+  border-bottom:1px solid #ccc;
+}
+
+.inline .new {
+  margin-left: 16px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: calc(100% - 80px);
+  margin: 0 40px;
+  box-sizing:border-box;
+}
